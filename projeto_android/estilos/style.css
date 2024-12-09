@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family:'idroid' ;
+    src: url('../fontes/idroid.otf') format('opentype');
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: 'idroider';
+    src: url('../fontes/idroid.otf') format('opentype');
+    font-weight: bold;
+}
+
+:root {
+    --fonte-padrao: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte-tit: 'idroid', sans-serif;
+    --fonte-sub: 'idroider', sans-serif;
+}
+
+header {
+    background-color: ;
+}
+
+header > h1 {
+    font-family: var(--fonte-tit);
+}
+

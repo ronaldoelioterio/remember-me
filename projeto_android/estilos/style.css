@@ -24,10 +24,35 @@
 }
 
 header {
-    background-color: ;
+    padding: 20px;
+    background-color: rgb(197, 87, 197);
+    font-family: var(--fonte-padrao);
+    text-align: center;
 }
 
 header > h1 {
     font-family: var(--fonte-tit);
 }
 
+header > p {
+    margin: auto;
+    max-width: 430px;
+    padding: 20px;
+    font-size: 0.7em;
+}
+
+header > ul {
+    text-align: left;
+    list-style-type: none;
+}
+
+header > ul > li {
+    font-size: 0.8em;
+    padding: 10px;
+    display: inline-block;
+}
+
+header > ul > li > a {
+    text-decoration: none;
+    color: rgb(166, 241, 175);
+}

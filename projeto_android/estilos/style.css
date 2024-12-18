@@ -65,7 +65,7 @@ section > main {
     padding: 20px;
     margin: auto;
     line-height: 1.5;
-    width: 70vw;
+    width: 80vw;
 }
 
 .conteudo {
@@ -76,4 +76,14 @@ section > main > h2 {
     font-family: var(--fonte-sub);
     background-image: linear-gradient(to right, rgba(128, 0, 128, 0.462), white);
     padding: 10px;
+}
+
+.imagem {
+    margin: auto;
+    padding: 200px;
+}
+
+main > #dandroids {
+    background: url('../imagens/pequenho.png') no-repeat center top fixed;
+    width: 200px;
 }

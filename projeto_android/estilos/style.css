@@ -29,7 +29,7 @@ body {
 
 header {
     padding: 20px;
-    background-color: rgb(197, 87, 197);
+    background-color: rgb(147, 64, 147);
     font-family: var(--fonte-padrao);
     text-align: center;
 }
@@ -59,7 +59,7 @@ header > ul > li {
 header > ul > li > a {
     text-decoration: none;
     color: rgb(166, 241, 175);
-    background-color: rgb(93, 43, 93);
+    background-color: rgb(69, 33, 69);
     padding: 10px;
     border-radius: 10px 2px;
 }
